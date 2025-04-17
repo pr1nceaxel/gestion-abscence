@@ -10,7 +10,9 @@ const nextConfig = {
     return config;
   },
   experimental: {
-    serverComponentsExternalPackages: ['pg', 'pg-native']
+    serverComponentsExternalPackages: ['pg', 'pg-native'],
+    appDir: true,  // Obligatoire si vous utilisez l'App Router
+
   }
 }
 

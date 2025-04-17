@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';  // Désactive le rendu statique
+
 import { NextResponse } from "next/server";
 import prisma from "@/lib/prisma";
 import bcrypt from "bcrypt";
